@@ -34,7 +34,7 @@ df_with_length = df.withColumn(
 df_with_length.coalesce(1).write \
     .mode("overwrite") \
     .option("header", True) \
-    .csv(r"C:\Users\Shree\Desktop\New_folder\Extremo\Raw\names_with_length")
+    .csv(r"C:\Users\Shree\Desktop\New_folder\Extremo\Bronze\names_with_length")
 
 print("CSV SAVED")
 
